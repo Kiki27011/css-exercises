@@ -28,7 +28,7 @@ img {
 }
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 50px;
 }
 .info {
