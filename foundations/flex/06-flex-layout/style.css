@@ -12,7 +12,7 @@ body {
 img {
   width: 600px;
 }
-margin-top: auto;
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
@@ -32,27 +32,22 @@ a {
   color: #777777;
 }
 ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
   list-style: none;
 }
 
-.left-links {
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-  padding-left: 0px;
-}
-
-.right-links {
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-  padding-left: 0px;
-}
-
-.header {
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
   padding: 16px;
+}
+
+.footer {
+  background: #eee;
 }
 
 .logo {
@@ -70,9 +65,3 @@ ul {
   flex: 1;
 }
 
-.footer {
-  background-color: #eeeeee;
-  display: flex;
-  justify-content: space-between;
-  padding: 16px;
-}
