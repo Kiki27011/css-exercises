@@ -54,6 +54,10 @@ li {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  margin: 16px;
+  padding: 16px;
+  width: 300px;
+  
 }
 
 .body {
@@ -61,3 +65,8 @@ li {
   flex: 1;
 }
 
+.cards {
+  display: flex;
+  padding: 48px;
+  flex-wrap: wrap;
+}
