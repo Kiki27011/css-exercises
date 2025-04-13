@@ -24,7 +24,7 @@ body {
 .sidebar {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  flex-shrink: 0;
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
@@ -36,7 +36,10 @@ body {
   border-radius: 4px;
 }
 
-/* My changes */
+.body {
+  display: flex;
+  min-height: 100vh;
+}
 
 * {
   border: black solid 1px;
