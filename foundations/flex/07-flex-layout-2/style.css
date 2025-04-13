@@ -6,6 +6,20 @@ body {
   min-height: 100vh;
 }
 
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding-bottom: 16px;
+}
+
 .header {
   padding-left: 16px;
   font-weight: 900;
@@ -33,6 +47,7 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  padding: 16px;
 }
 
 .card {
@@ -46,6 +61,3 @@ body {
   flex: 1;
 }
 
-* {
-  border: black solid 1px;
-}
